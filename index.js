@@ -20,9 +20,8 @@ function destructivelyRemoveFirstDriver(DRFD) {
 
 function appendDriver(AD) {
   
+  const newDriver = [...driver,"Broom"];
   
-  
-  console.log(newDriver);
 }
 
 
