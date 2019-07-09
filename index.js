@@ -30,20 +30,16 @@ function prependDriver(PD) {
   return [PD, ...drivers];
 }
 
-function removeLastDriver() {
+function removeLastDriver(RLD) {
 
 return drivers.slice(0,2);
 }
 
-/*    describe('removeLastDriver()', function () {
-      it('removes the last driver in the drivers array and returns a new array, leaving the drivers array unchanged', function () {
-        expect(removeLastDriver()).to.have.ordered.members(["Milo", "Otis"]);
+function removeFirstDriver(RFD) {
+  return driver.slice(1,3);
+}
 
-        expect(drivers).to.have.ordered.members(["Milo", "Otis", "Garfield"]);
-      });
-    });
-
-    describe('removeFirstDriver()', function () {
+/*    describe('removeFirstDriver()', function () {
       it('removes the first driver from the drivers array and returns a new array, leaving the drivers array unchanged', function () {
         expect(removeFirstDriver()).to.have.ordered.members(["Otis", "Garfield"]);
 
