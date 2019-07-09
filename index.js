@@ -20,8 +20,7 @@ function destructivelyRemoveFirstDriver(DRFD) {
 
 function appendDriver(AD) {
   
-  
-[...drivers, AD];
+  return [...drivers, AD];
  
 }
 
