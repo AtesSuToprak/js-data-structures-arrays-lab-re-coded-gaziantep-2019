@@ -32,7 +32,7 @@ function prependDriver(PD) {
 
 function removeLastDriver() {
 
- drivers.slice(0,2);
+return drivers.slice(0,2);
 }
 
 /*    describe('removeLastDriver()', function () {
