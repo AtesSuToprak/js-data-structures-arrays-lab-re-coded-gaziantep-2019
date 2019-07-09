@@ -24,9 +24,9 @@ function appendDriver(AD) {
  
 }
 
-function pretendDriver("Arnold") {
+function pretendDriver(Arnold) {
   
-  return ["Arnold", ...drivers];
+  return [Arnold, ...drivers];
 }
 
 
