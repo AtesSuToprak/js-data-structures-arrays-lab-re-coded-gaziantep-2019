@@ -36,7 +36,7 @@ return drivers.slice(0,2);
 }
 
 function removeFirstDriver(RFD) {
-  return driver.slice(1,3);
+  return driver.slice(1);
 }
 
 /*    describe('removeFirstDriver()', function () {
